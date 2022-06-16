@@ -3,3 +3,44 @@
 h1{
     color: var(--fire_starter)
 }
+
+.hero{
+    width: 100%;
+    height: calc(100vh - 200px);
+    background-image: url("../images/fried_rice.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.heroImage{
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    /* backdrop-filter: blur(8px); */
+}
+
+section{
+    display: flex;
+    min-height: 400px;
+}
+
+section > div{
+    flex: 1;
+}
+
+.sectionImg{
+    margin: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+section:nth-of-type(1) > .sectionImg{
+    background-image: url("../images/seasoning.jpg");
+}
+
+section:nth-of-type(2) .sectionImg{
+    background-image: url("../images/restaurant_interior.jpg");
+}

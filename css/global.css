@@ -1,7 +1,7 @@
 @import "./colors.css";
 
-*{
-    font-family:sans-serif;
+* {
+  font-family: sans-serif;
 }
 
 body {
@@ -11,11 +11,14 @@ body {
 .banner {
   background-color: var(--sleek);
   padding: 10px;
-
 }
 
-.banner > a{
-    text-decoration: none;
-    color: white;
+.banner > ul {
+  list-style-type: none;
+  display: flex;
+}
 
+.banner a {
+  text-decoration: none;
+  color: white;
 }
