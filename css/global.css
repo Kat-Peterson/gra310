@@ -1,7 +1,9 @@
 @import "./colors.css";
+@import url("https://use.typekit.net/ads4zof.css");
 
 * {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: athelas, serif;
 }
 
 body {
@@ -11,6 +13,8 @@ body {
 .banner {
   background-color: var(--sleek);
   padding: 10px;
+  position: sticky;
+  top: 0px;
 }
 
 .banner > ul {
@@ -19,6 +23,8 @@ body {
 }
 
 .banner a {
+  padding: 20px;
   text-decoration: none;
   color: white;
+  font-size: 16pt;
 }
