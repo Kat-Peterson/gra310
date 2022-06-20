@@ -70,3 +70,7 @@ section:nth-of-type(1) > .sectionImg{
 section:nth-of-type(2) .sectionImg{
     background-image: url("../images/restaurant_interior.jpg");
 }
+
+.noBottomMargin{
+    margin-bottom: 0px !important; 
+}

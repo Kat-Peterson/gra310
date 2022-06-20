@@ -1,9 +1,20 @@
 .content{
     max-width: 500px;
-    margin: 50px;
+    margin: 25px;
+    font-size: 14pt;
 }
 
 .img{
-    max-width: 500px;
+    width: 500px;
+    height: 400px;
     margin: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/man_with_dumplings.jpg");
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 220px);
 }

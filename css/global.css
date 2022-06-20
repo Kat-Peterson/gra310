@@ -28,3 +28,21 @@ body {
   color: white;
   font-size: 16pt;
 }
+
+footer{
+  background-color: var(--sleek);
+  /* position: absolute;
+  bottom: 0px; */
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+
+.socialWrapper > img{
+  height: 30px;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}

@@ -1,0 +1,19 @@
+.content{
+    max-width: 500px;
+    margin: 50px;
+}
+
+.img{
+    width: 500px;
+    height: 650px;
+    margin: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/meat_dish.jpg");
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 220px);
+}
