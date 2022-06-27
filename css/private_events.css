@@ -1,6 +1,7 @@
 .content{
     max-width: 500px;
-    margin: 50px;
+    margin: 25px;
+    font-size: 14pt;
 }
 
 .img{
@@ -15,5 +16,9 @@
 .page{
     display: flex;
     justify-content: center;
-    min-height: calc(100vh - 220px);
+    min-height: calc(100vh - 255px);
+}
+
+h1{
+    color: var(--fire_starter);
 }
